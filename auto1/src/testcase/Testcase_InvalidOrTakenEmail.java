@@ -54,6 +54,7 @@ public void test() throws Exception {
 			String actualText = objMsg.getMsgIvalidOrTakenEmail().trim().toLowerCase();
 			Assert.assertTrue(actualText.matches(".*email is invalid or already taken.*"), 
 					"Text not found: Email is invalid or already taken");
+			System.out.println(actualText);
 			Reporter.log(actualText);
 }
 @AfterTest

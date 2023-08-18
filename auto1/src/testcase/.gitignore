@@ -1,0 +1,12 @@
+/Testcase_BlankRepoName.class
+/Testcase_CreateNewFile.class
+/Testcase_CreateRepo.class
+/Testcase_EditFile.class
+/Testcase_InvalidOrTakenEmail.class
+/Testcase_Login.class
+/Testcase_SignUp.class
+/Testcase_SpecialRepoName.class
+/Testcase_WrongPassword.class
+/Testcase_passwordCompromised.class
+/Testcase_passwordNotSatisfy.class
+/Testcase_passwordTooLong.class

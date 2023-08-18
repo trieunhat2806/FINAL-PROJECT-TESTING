@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
 public class Login {
+	
 	WebDriver driver;
 	
 	@FindBy(xpath="//input[@id='password']//preceding::input[@id='login_field']")

@@ -45,8 +45,6 @@ import homepage.error_message;
 			//ExcelUtils.setExcelFile("C:\\Users\\viend\\eclipse-workspace\\auto1\\src\\excel\\testdata.xlsx","TC_01");
 			//login page obj
 			objLogin=new Login(driver);
-			
-			//login
 			//objLogin.loginToGithub(ExcelUtils.getCellData(1, 2), ExcelUtils.getCellData(1, 3));
 			objLogin.loginToGithub("viendanbac024@gmail.com","Lmaoxd@123");
 			Reporter.log("login successful");
@@ -62,7 +60,7 @@ import homepage.error_message;
 			objHomepage.CreateFileClick();
 			Reporter.log("'create file' button clicked");
 			//name input
-			objHomepage.FileInput("khong");
+			objHomepage.FileInput("khong5678");
 			Reporter.log("name input");
 			//content input 
 			objHomepage.ContentInput("testing 123");
@@ -79,7 +77,7 @@ import homepage.error_message;
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			String actualText = objHomepage.getFileCreateCheck().trim().toLowerCase();
 			Assert.assertFalse(actualText.matches(".*63.*"), "Text not found: 63");
-			Reporter.log(actualText);
+			Reporter.log("newest file has been added");
 			System.out.println(actualText);
 		}
 		
