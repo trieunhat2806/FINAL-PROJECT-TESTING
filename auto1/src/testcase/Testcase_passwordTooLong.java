@@ -39,7 +39,7 @@ public class Testcase_passwordTooLong {
 	}
 
 	@SuppressWarnings("deprecation")
-	@Test(priority=0, groups="case 4")
+	@Test(priority=0, groups="case 1")
 	public void test() throws Exception {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		objSignUp=new SignUp(driver);

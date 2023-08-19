@@ -46,7 +46,7 @@ public class Testcase_EditFile {
 		
 		//login
 		//objLogin.loginToGithub(ExcelUtils.getCellData(1, 2), ExcelUtils.getCellData(1, 3));
-		objLogin.loginToGithub("viendanbac024@gmail.com","Lmaoxd@123");
+		objLogin.loginToGithub("viendanbac024@gmail.com","Trieunhat@2806");
 		Reporter.log("login successful");
 		
 		objHomepage=new Homepage(driver);
@@ -63,7 +63,7 @@ public class Testcase_EditFile {
 		Reporter.log("Edit File button clicked");
 		
 		//Type in file
-		objHomepage.FileType("testing ");
+		objHomepage.FileType("Hien123 ");
 		Reporter.log("Typed in");
 		
 		//Commit change
@@ -77,6 +77,7 @@ public class Testcase_EditFile {
 		//checkpoint
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String actualText = objHomepage.getEditResultCheck().trim().toLowerCase();
+		//Assert.assertTrue(actualText.contains("Hien123 "));
 		Assert.assertFalse(actualText.matches(".*123455# Selenium AUTOMATION TESTING 1122.*"));
 		Reporter.log("successfully updated");
 		System.out.println(actualText);

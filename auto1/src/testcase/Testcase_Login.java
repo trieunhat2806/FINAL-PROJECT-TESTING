@@ -49,7 +49,7 @@ public class Testcase_Login {
 		
 		//login
 		//objLogin.loginToGithub(ExcelUtils.getCellData(1, 2), ExcelUtils.getCellData(1, 3));
-		objLogin.loginToGithub("viendanbac024@gmail.com","Lmaoxd@123");
+		objLogin.loginToGithub("viendanbac024@gmail.com","Trieunhat@2806");
 		Reporter.log("login successful");
 		
 		// Initialize Homepage object after login

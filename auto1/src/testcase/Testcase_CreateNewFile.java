@@ -46,7 +46,7 @@ import homepage.error_message;
 			//login page obj
 			objLogin=new Login(driver);
 			//objLogin.loginToGithub(ExcelUtils.getCellData(1, 2), ExcelUtils.getCellData(1, 3));
-			objLogin.loginToGithub("viendanbac024@gmail.com","Lmaoxd@123");
+			objLogin.loginToGithub("viendanbac024@gmail.com","Trieunhat@2806");
 			Reporter.log("login successful");
 			
 			objHomepage=new Homepage(driver);
@@ -60,7 +60,7 @@ import homepage.error_message;
 			objHomepage.CreateFileClick();
 			Reporter.log("'create file' button clicked");
 			//name input
-			objHomepage.FileInput("khong5678");
+			objHomepage.FileInput("k");
 			Reporter.log("name input");
 			//content input 
 			objHomepage.ContentInput("testing 123");

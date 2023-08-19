@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 19 19:33:29 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>119 seconds (119605 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.Testcase_SpecialRepoName.test()'><b>test</b><br>Test class: testcase.Testcase_SpecialRepoName<br/>
+<a href="#Output-1146694713" onClick='toggleBox("Output-1146694713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1146694713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1146694713">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login successful<br/>
+repository clicked<br/>
+repo name entered<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcase.Testcase_SpecialRepoName@53fb3dab</td></tr>
+<tr>
+<td title='testcase.Testcase_passwordNotSatisfy.test()'><b>test</b><br>Test class: testcase.Testcase_passwordNotSatisfy<br/>
+<a href="#Output-1303122461" onClick='toggleBox("Output-1303122461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1303122461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1303122461">
+email entered<br/>
+email button clicked<br/>
+password entered<br/>
+password needs a number and lowercase letter<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.Testcase_passwordNotSatisfy@5149d738</td></tr>
+<tr>
+<td title='testcase.Testcase_CreateNewFile.test()'><b>test</b><br>Test class: testcase.Testcase_CreateNewFile<br/>
+<a href="#Output-190490203" onClick='toggleBox("Output-190490203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-190490203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-190490203">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login successful<br/>
+chosen repo clicked<br/>
+chosen file clicked<br/>
+'create file' button clicked<br/>
+name input<br/>
+content typed in<br/>
+Commit changes button clicked<br/>
+'commit changes' confirmation button clicked<br/>
+newest file has been added<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>testcase.Testcase_CreateNewFile@cb0755b</td></tr>
+<tr>
+<td title='testcase.Testcase_Login.test()'><b>test</b><br>Test class: testcase.Testcase_Login<br/>
+<a href="#Output-1780414044" onClick='toggleBox("Output-1780414044", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1780414044" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1780414044">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login successful<br/>
+send feedback<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcase.Testcase_Login@53045c6c</td></tr>
+<tr>
+<td title='testcase.Testcase_CreateRepo.test()'><b>test</b><br>Test class: testcase.Testcase_CreateRepo<br/>
+<a href="#Output-1083777179" onClick='toggleBox("Output-1083777179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083777179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083777179">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login successful<br/>
+repository clicked<br/>
+repo name entered<br/>
+trieu-nhat-222 is available.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testcase.Testcase_CreateRepo@3a7442c7</td></tr>
+<tr>
+<td title='testcase.Testcase_EditFile.test()'><b>test</b><br>Test class: testcase.Testcase_EditFile<br/>
+<a href="#Output-1317746045" onClick='toggleBox("Output-1317746045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1317746045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1317746045">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login successful<br/>
+chosen repo clicked<br/>
+chosen file clicked<br/>
+Edit File button clicked<br/>
+Typed in<br/>
+Commit changes button clicked<br/>
+'commit changes' confirmation button clicked<br/>
+successfully updated<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testcase.Testcase_EditFile@548d708a</td></tr>
+<tr>
+<td title='testcase.Testcase_BlankRepoName.test()'><b>test</b><br>Test class: testcase.Testcase_BlankRepoName<br/>
+<a href="#Output-242224826" onClick='toggleBox("Output-242224826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-242224826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-242224826">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login successful<br/>
+repository clicked<br/>
+create repo clicked<br/>
+new repository name must not be blank<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testcase.Testcase_BlankRepoName@4be29ed9</td></tr>
+<tr>
+<td title='testcase.Testcase_InvalidOrTakenEmail.test()'><b>test</b><br>Test class: testcase.Testcase_InvalidOrTakenEmail<br/>
+<a href="#Output-757436159" onClick='toggleBox("Output-757436159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-757436159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-757436159">
+email entered<br/>
+email is invalid or already taken<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcase.Testcase_InvalidOrTakenEmail@4b013c76</td></tr>
+<tr>
+<td title='testcase.Testcase_passwordCompromised.test()'><b>test</b><br>Test class: testcase.Testcase_passwordCompromised<br/>
+<a href="#Output-1664093259" onClick='toggleBox("Output-1664093259", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1664093259" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1664093259">
+email entered<br/>
+email button clicked<br/>
+password entered<br/>
+password may be compromised<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.Testcase_passwordCompromised@795509d9</td></tr>
+<tr>
+<td title='testcase.Testcase_WrongPassword.test()'><b>test</b><br>Test class: testcase.Testcase_WrongPassword<br/>
+<a href="#Output-1566200241" onClick='toggleBox("Output-1566200241", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1566200241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1566200241">
+username entered<br/>
+password entered<br/>
+button clicked<br/>
+login failed<br/>
+incorrect username or password.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcase.Testcase_WrongPassword@6bbe85a8</td></tr>
+<tr>
+<td title='testcase.Testcase_passwordTooLong.test()'><b>test</b><br>Test class: testcase.Testcase_passwordTooLong<br/>
+<a href="#Output-1162400340" onClick='toggleBox("Output-1162400340", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1162400340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1162400340">
+email entered<br/>
+email button clicked<br/>
+password entered<br/>
+password is too long<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testcase.Testcase_passwordTooLong@58cbafc2</td></tr>
+</table><p>
+</body>
+</html>
