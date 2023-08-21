@@ -52,7 +52,7 @@ public class Testcase_StartNewDiscusion {
 		
 		//login
 		//objLogin.loginToGithub(ExcelUtils.getCellData(1, 2), ExcelUtils.getCellData(1, 3));
-		objLogin.loginToGithub("hienv.2002@gmail.com","Rand0w3103");
+		objLogin.loginToGithub("viendanbac024@gmail.com","Trieunhat@2806");
 		Reporter.log("login successful");
 		
 		// Initialize Homepage object after login
@@ -61,7 +61,7 @@ public class Testcase_StartNewDiscusion {
 		
 		objGeneralDiscussion =new GeneralDiscussion(driver);
 		
-		objGeneralDiscussion.Discusion("test32231","223");
+		objGeneralDiscussion.Discusion("hien123","223");
 		Reporter.log("discussion created successful");
 		objGeneralDiscussion = new GeneralDiscussion(driver);
 		

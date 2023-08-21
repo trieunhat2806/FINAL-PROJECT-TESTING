@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">	
+  <test thread-count="5" name="Test">
     <classes>
-           	<class name="testcase.Testcase_passwordTooLong"/>
+      		<class name="testcase.Testcase_passwordTooLong"/>
 			<class name="testcase.Testcase_passwordCompromised"/>
 			<class name="testcase.Testcase_Login"/>
 			<class name="testcase.Testcase_passwordNotSatisfy"/>
@@ -16,6 +16,14 @@
 			<class name="testcase.Testcase_Login"/>
 			<class name="testcase.Testcase_CreateNewFile"/>
 			<class name="testcase.Testcase_SignUp"/>
+			<class name="testcase.Testcase_StartNewDiscusion"/>
+			<class name="testcase.Testcase_StartNewDiscusion2"/>
+			<class name="testcase.Testcase_WriteComment"/>
+			<class name="testcase.Testcase_SortingDiscussion"/>
+			<class name="testcase.Testcase_SortingDiscussion2"/>
+			<class name="testcase.Testcase__EmptyEditDiscussionName"/>
+			<class name="testcase.Testcase_EditDicussionName"/>
+			<class name="testcase.Testcase_ChangeCatergory"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
