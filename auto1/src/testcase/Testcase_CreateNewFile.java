@@ -60,7 +60,7 @@ import homepage.error_message;
 			objHomepage.CreateFileClick();
 			Reporter.log("'create file' button clicked");
 			//name input
-			objHomepage.FileInput("kkkkkkkk");
+			objHomepage.FileInput("kkkkkkkkkkkk");
 			Reporter.log("name input");
 			//content input 
 			objHomepage.ContentInput("testing 123");
